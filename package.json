@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=24.13.0",
+    "npm": ">=11.6.2"
+  },
+  "description": "Boilerplate code for creating frontend web projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackdanismo/boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hackdanismo/boilerplate/issues"
+  },
+  "homepage": "https://github.com/hackdanismo/boilerplate#readme"
+}
