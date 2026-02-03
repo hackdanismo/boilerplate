@@ -8,7 +8,7 @@
   "description": "Boilerplate code for creating frontend web projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "bun build src/*.ts --outdir dist --minify"
   },
   "repository": {
     "type": "git",
