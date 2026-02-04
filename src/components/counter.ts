@@ -2,7 +2,7 @@
  * Import the function used to register a component.
  * This lets the component be added to the global registry.
 */
-import { defineComponent } from "../registry";
+import { defineComponent } from "../core/registry";
 
 /*
  * Register a new component named "counter".

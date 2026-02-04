@@ -1,5 +1,5 @@
 // Import the function that mounts all components found in the DOM.
-import { mountAll } from "./mount";
+import { mountAll } from "./core/mount";
 
 /*
  * Register components by importing them.
