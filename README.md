@@ -24,3 +24,18 @@ It is worth also setting the recommended `Node` version. The `.nvmrc` configurat
 ```shell
 $ nvm use
 ```
+
+## Development
+Any changes to the code base will require the `dev` script to be run. This will compile the `TypeScript` files in the `src` directory to `JavaScript` files inside the `dist` directory:
+
+```shell
+$ npm run dev
+```
+
+As the `index.html` document uses a `module` to include the `JavaScript` code, a local server must be used. `Python` can be used as a local server. The `HTML` document can then be viewed on: [http://localhost:8000/](http://localhost:8000/).
+
+Here is the command to start the server in the terminal:
+
+```shell
+$ python3 -m http.server
+```
