@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Boilerplate</title>
 </head>
 <body>
-    <button data-ui="counter" data-count="3"></button>
+    <noscript>
+        <p>This demo needs JavaScript to be enabled.</p>
+    </noscript>
+    <main role="main">
+        <button 
+            type="button" 
+            data-ui="counter" 
+            data-count="3" 
+            aria-label="Counter button"
+            aria-live="polite"
+        >
+            Count: 3
+        </button>
+    </main>
 
-<!-- As this is a module a server is needed to run the code: $python3 -m http.server -->
-<script type="module" src="dist/index.js"></script>
+    <!-- As this is a module a server is needed to run the code: $python3 -m http.server -->
+    <script type="module" src="dist/index.js"></script>
 </body>
 </html>
