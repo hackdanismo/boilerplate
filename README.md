@@ -1,8 +1,33 @@
 # Boilerplate
 Boilerplate code for creating frontend web projects.
 
++ [Project Structure](#project-structure)
 + [Clone the Repository](#clone-the-repository)
 + [Install](#install)
+
+## Project Structure
+Here is the structure of the project:
+
+```
+dist/
+├─ index.js             # Compiled file added to the HTML document
+├─ mount.js             # Compiled src/core/mount.ts file
+├─ registry.js          # Compiles src/core/registry.ts file
+src/
+├─ componens/
+│  └─ counter.ts        # The counter component
+├─ core/
+│  └─ mount.ts          # The core runtime that mount components onto elements
+│  └─ registry.ts       # The dictionary of components
+│
+index.ts                # Main entry point to bootstrap the application
+```
+
+Within the `index.html` file, the `dist/index.js` file is added as an `ES Module (ESM)` to add the boilerplate code just before the closing `</body>` tag:
+
+```html
+<script type="module" src="dist/index.js"></script>
+```
 
 ## Clone the Repository
 It is recommended to clone to repository using the `SSH (Secure Shell)` protocol. This can be done using the terminal. `SSH` will need to be setup first.
