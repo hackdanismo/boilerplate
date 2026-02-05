@@ -1,6 +1,6 @@
 # Boilerplate
 
-![Node](https://img.shields.io/github/package-json/engines/node/hackdanismo/boilerplate)
+![Node](https://img.shields.io/badge/node-24.13.0-brightgreen)
 
 Boilerplate code for creating frontend web projects.
 
