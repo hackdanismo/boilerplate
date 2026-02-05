@@ -29,6 +29,10 @@ $ nvm use
 Any changes to the code base will require the `dev` script to be run. This will compile the `TypeScript` files in the `src` directory to `JavaScript` files inside the `dist` directory:
 
 ```shell
+$ cd boilerplate
+# Set the Node version specified in the .nvmrc config file
+$ nvm use
+# Run the development script
 $ npm run dev
 ```
 
