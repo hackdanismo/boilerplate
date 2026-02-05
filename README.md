@@ -1,7 +1,8 @@
 # Boilerplate
-Boilerplate code for creating frontend web projects.
 
-[![Node](https://img.shields.io/node/v/hackdanismo/boilerplate)](https://nodejs.org/)
+![Node](https://img.shields.io/github/package-json/engines/node/hackdanismo/boilerplate)
+
+Boilerplate code for creating frontend web projects.
 
 + [Project Structure](#project-structure)
 + [Clone the Repository](#clone-the-repository)
