@@ -1,6 +1,8 @@
 # Boilerplate
 Boilerplate code for creating frontend web projects.
 
+![Node](https://img.shields.io/badge/node-20-brightgreen)
+
 + [Project Structure](#project-structure)
 + [Clone the Repository](#clone-the-repository)
 + [Install](#install)
