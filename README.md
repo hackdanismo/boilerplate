@@ -15,15 +15,14 @@ Here is the structure of the project:
 dist/
 ├─ index.js             # Compiled file added to the HTML document
 ├─ mount.js             # Compiled src/core/mount.ts file
-├─ registry.js          # Compiles src/core/registry.ts file
+├─ registry.js          # Compiled src/core/registry.ts file
 src/
 ├─ componens/
 │  └─ counter.ts        # The counter component
 ├─ core/
 │  └─ mount.ts          # The core runtime that mount components onto elements
 │  └─ registry.ts       # The dictionary of components
-│
-index.ts                # Main entry point to bootstrap the application
+├─ index.ts             # Main entry point to bootstrap the application
 ```
 
 Within the `index.html` file, the `dist/index.js` file is added as an `ES Module (ESM)` to add the boilerplate code just before the closing `</body>` tag:
